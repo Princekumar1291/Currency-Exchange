@@ -34,3 +34,5 @@ async function initializeApp() {
 }
 
 initializeApp();
+
+module.exports = app;
