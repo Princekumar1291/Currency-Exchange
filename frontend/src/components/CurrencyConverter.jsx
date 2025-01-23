@@ -15,7 +15,7 @@ const CurrencyConverter = () => {
 
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:3000/api/exchange/convert', {
+      const response = await fetch('https://currency-exchange-hp84.onrender.com/api/exchange/convert', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
